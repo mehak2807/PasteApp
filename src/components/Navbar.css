@@ -1,0 +1,47 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    background-color: #111;  /* Black-ish background */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  }
+  
+  .navbar a {
+    color: #eee;              /* Light text */
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #a855f7;           /* Purple hover text */
+  }
+  
+  .navbar a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -4px;
+    background: #a855f7;      /* Purple underline */
+    transition: width 0.3s ease;
+  }
+  
+  .navbar a:hover::after {
+    width: 100%;
+  }
+  
+  .navbar a.active {
+    color: #a855f7;           /* Purple for active link */
+  }
+  
+  .navbar a.active::after {
+    width: 100%;
+  }
+  
