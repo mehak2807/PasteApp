@@ -29,7 +29,7 @@ A simple and user-friendly web app that allows users to create, view, edit, copy
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/mehak2807/PasteApp
 cd your-repo-name
 ````
 
