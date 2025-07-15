@@ -51,7 +51,8 @@ Open your browser and navigate to [http://localhost:5173](http://localhost:5173)
 
 ## 🌍 Live Demo
 
-Check out the live version here: //paste-app-wheat-kappa.vercel.app/
+Check out the live version here: 
+https://paste-app-wheat-kappa.vercel.app/
 
 ---
 
